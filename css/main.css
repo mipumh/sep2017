@@ -179,10 +179,6 @@ h4 {
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url(/img/cover.jpg) no-repeat bottom center scroll;
-    background-position: bottom;
-    background-size: cover;
-    color: rgb(255,255,255);
 }
 .introHeadline {
     font-family:"HelveticaNeue-CondensedBold", "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;

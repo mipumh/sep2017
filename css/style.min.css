@@ -260,8 +260,8 @@ ul {
 }
 
 .container-fluid {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 0px;
+  padding-left: 0px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -755,7 +755,7 @@ h4 {
 
 .mastheadLink {
   text-align: center;
-  margin: 0 auto;
+  margin: 0 auto;    
 }
 
 .mastheadLink:hover,
@@ -778,6 +778,7 @@ h4 {
 .headerLinks--link:hover {
   opacity: 0.8;
   color: rgb(255,255,255);
+  border-bottom: 2px solid #fff;
   text-decoration: none;
 }
 
@@ -789,19 +790,13 @@ h4 {
   height: 100vh;
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
-  background: url(/img/cover.jpg) no-repeat bottom center scroll;
-  background-position: bottom;
-  background-size: cover;
-  color: rgb(255,255,255);
 }
 
 .introHeadline {
   font-family: "HelveticaNeue-CondensedBold", "Roboto Condensed", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 700;
   font-size: 3rem;
-  padding-top: 2rem;
+  padding-top: 0rem;
   line-height: 0.9;
   text-shadow: 0px 2px 15px rgba(0,0,0,0.8);
 }
@@ -852,6 +847,19 @@ h4 {
 /*
 * Schedule
 */
+
+.scheduleint {
+  background: #5C258D;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left top, #5C258D , #4389A2);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background-image: url(""), linear-gradient(to left top, #5C258D , #4389A2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: rgb(255,255,255);
+  display: block;
+}
 
 .schedule {
   background: #5C258D;
@@ -1086,3 +1094,7 @@ h4 {
   }
 }
 
+
+.intro {
+    background-image: url
+}
