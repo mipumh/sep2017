@@ -190,6 +190,7 @@ img {
 
 .img-responsive {
   display: block;
+      
   max-width: 100%;
   height: auto;
 }
@@ -857,7 +858,7 @@ h4 {
   /* Chrome 10-25, Safari 5.1-6 */
   background-image: url("https://dl.dropboxusercontent.com/u/3578704/ilustramedia2.png"), linear-gradient(to left top, #0c0315 , #4389A2);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: rgb(255,255,255);
   display: block;
