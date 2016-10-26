@@ -1072,6 +1072,7 @@ h4 {
 * Desktop
 */
 
+
 @media (min-width: 992px) {
   .shareContainer {
     position: absolute;
@@ -1079,6 +1080,9 @@ h4 {
     margin-top: 1.7rem;
   }
 
+ .scheduleint {
+   background-size: contain;
+    }
   .shareButton:hover,
   .shareButton:active,
   .shareButton:focus {
