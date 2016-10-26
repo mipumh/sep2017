@@ -166,6 +166,7 @@ body {
   background-color: #fff;
 }
 
+
 a {
   color: #337ab7;
   text-decoration: none;
@@ -749,13 +750,13 @@ h4 {
 }
 
 .navbarImg {
-  height: 50px;
-  width: 230px;
+    width: auto;
+    height: auto;
 }
 
 .mastheadLink {
   text-align: center;
-  margin: 0 auto;    
+  margin: 0 auto;
 }
 
 .mastheadLink:hover,
@@ -778,7 +779,6 @@ h4 {
 .headerLinks--link:hover {
   opacity: 0.8;
   color: rgb(255,255,255);
-  border-bottom: 2px solid #fff;
   text-decoration: none;
 }
 
@@ -790,6 +790,8 @@ h4 {
   height: 100vh;
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 .introHeadline {
@@ -849,13 +851,13 @@ h4 {
 */
 
 .scheduleint {
-  background: #5C258D;
+  background: #0c0315;
   /* fallback for old browsers */
   background: -webkit-linear-gradient(to left top, #5C258D , #4389A2);
   /* Chrome 10-25, Safari 5.1-6 */
-  background-image: url(""), linear-gradient(to left top, #5C258D , #4389A2);
+  background-image: url("https://dl.dropboxusercontent.com/u/3578704/ilustramedia2.png"), linear-gradient(to left top, #0c0315 , #4389A2);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: rgb(255,255,255);
   display: block;
