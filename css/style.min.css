@@ -31,6 +31,16 @@
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+}
+
 footer,
 header,
 section {
@@ -816,7 +826,7 @@ h4 {
 .summaryList {
   list-style-type: none;
   padding-left: 0;
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 /*
@@ -1109,7 +1119,14 @@ h4 {
   .flex-joinUs {
     padding: 3rem 5rem 5rem 5rem;
   }
+    
+  .introHeadline {
+    font-size: 6rem;
+  }
 
+  .introCopy {
+    font-size: 2rem;
+  }
 }
 
 /*
